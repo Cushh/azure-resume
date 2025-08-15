@@ -19,7 +19,19 @@ local.settings.json
 [Rr]elease/
 [Rr]eleases/
 x64/
-x86/
+x86/# .NET / Azure Functions
+**/bin/
+**/obj/
+TestResults/
+.vs/
+*.user
+*.suo
+
+# Local-only / secrets
+local.settings.json
+**/*.log
+**/*.tmp
+
 bld/
 [Bb]in/
 [Oo]bj/
